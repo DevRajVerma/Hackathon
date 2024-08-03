@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Water Accessibility Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Clean Water Accessibility Portal</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#search">Search Water Sources</a></li>
+                    <li><a href="#map">Interactive Map</a></li>
+                    <li><a href="#resources">Resource Library</a></li>
+                    <li><a href="#forum">Community Forum</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="section">
+        <div class="container">
+            <h2>Welcome to the Clean Water Accessibility Portal</h2>
+            <p>Empowering communities with information on clean water resources and purification methods.</p>
+        </div>
+    </section>
+
+    <section id="search" class="section">
+        <div class="container">
+            <h2>Search Water Sources</h2>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Enter location">
+                <button onclick="searchWaterSources()"><i class="fas fa-search"></i> Search</button>
+            </div>
+            <div id="searchResults" class="results"></div>
+        </div>
+    </section>
+
+    <section id="map" class="section">
+        <div class="container">
+            <h2>Interactive Map</h2>
+            <div id="mapContainer"></div>
+        </div>
+    </section>
+
+    <section id="resources" class="section">
+        <div class="container">
+            <h2>Resource Library</h2>
+            <div id="resourceLibrary">
+                <h3>Water Purification Methods</h3>
+                <p>Learn about various methods to purify water and ensure safe drinking water for everyone.</p>
+                <!-- Add more resources here -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Clean Water Accessibility Portal</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
